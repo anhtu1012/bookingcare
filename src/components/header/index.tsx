@@ -23,7 +23,11 @@ function Header() {
     <div className="header">
       <div className="header__left">
         <div>
-          <LuMenu style={{ color: "gray" }} size={30} onClick={showDrawer} />
+          <LuMenu
+            style={{ color: "gray", fontWeight: "bold" }}
+            size={40}
+            onClick={showDrawer}
+          />
           <Drawer
             placement={"left"}
             title="Basic Drawer"
