@@ -6,7 +6,7 @@ function Layout() {
   return (
     <div style={{ overflow: "hidden" }}>
       <Header />
-      <div style={{ marginTop: "80px", position: "relative" }}>
+      <div style={{ marginTop: "80px", padding: "0px 50px" }}>
         <Outlet />
       </div>
       <Footer />
