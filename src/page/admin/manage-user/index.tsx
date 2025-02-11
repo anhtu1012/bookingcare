@@ -2,7 +2,6 @@ import { Form, Input, Radio, Select } from "antd";
 import { useState } from "react";
 import ManageTemplate from "../../../components/ManageDashboard";
 import { formatDistanceToNow } from "date-fns";
-import moment from "moment";
 
 function ManageAccount() {
   const title = "Account";
@@ -19,34 +18,35 @@ function ManageAccount() {
         validateStatus={loginError ? "error" : ""}
       >
         <Radio.Group>
-          <Radio value={true}>Nam</Radio>
-          <Radio value={false}>Nữ</Radio>
+          <Radio value="M">Nam</Radio>
+          <Radio value="F">Nữ</Radio>
+          <Radio value="O">Khác</Radio>
         </Radio.Group>
       </Form.Item>
-      <Form.Item
-        name="firstName"
-        rules={[{ required: true, message: "Vui lòng nhập Tên!" }]}
-        validateStatus={loginError ? "error" : ""}
-        normalize={(value) => value.trim()}
-      >
-        <Input
-          className="input"
-          style={{ width: "140px" }}
-          placeholder="First Name"
-        />
-      </Form.Item>
-      <Form.Item
-        name="lastName"
-        rules={[{ required: true, message: "Vui lòng nhập Họ!" }]}
-        validateStatus={loginError ? "error" : ""}
-        normalize={(value) => value.trim()}
-      >
-        <Input
-          className="input"
-          style={{ width: "140px" }}
-          placeholder="Last Name"
-        />
-      </Form.Item>
+      <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
+        <Form.Item
+          name="firstName"
+          rules={[{ required: true, message: "Vui lòng nhập Tên!" }]}
+          validateStatus={loginError ? "error" : ""}
+        >
+          <Input
+            className="input"
+            style={{ width: "225px" }}
+            placeholder="First Name"
+          />
+        </Form.Item>
+        <Form.Item
+          name="lastName"
+          rules={[{ required: true, message: "Vui lòng nhập Họ!" }]}
+          validateStatus={loginError ? "error" : ""}
+        >
+          <Input
+            className="input"
+            style={{ width: "225px" }}
+            placeholder="Last Name"
+          />
+        </Form.Item>
+      </div>
 
       <Form.Item
         name="email"
@@ -56,7 +56,6 @@ function ManageAccount() {
         ]}
         help={loginError}
         validateStatus={loginError ? "error" : ""}
-        normalize={(value) => value.trim()}
       >
         <Input className="input" placeholder="Email" />
       </Form.Item>
@@ -96,7 +95,6 @@ function ManageAccount() {
         name="address"
         rules={[{ required: true, message: "Vui lòng nhập địa chỉ!" }]}
         validateStatus={loginError ? "error" : ""}
-        normalize={(value) => value.trim()}
       >
         <Input className="input" placeholder="Address" />
       </Form.Item>
@@ -111,20 +109,31 @@ function ManageAccount() {
           },
         ]}
         validateStatus={loginError ? "error" : ""}
-        normalize={(value) => value.trim()}
       >
         <Input className="input" placeholder="Phone Number" />
       </Form.Item>
-
+      <Form.Item
+        name="positionId"
+        rules={[{ required: true, message: "Vui lòng chọn chức danh!" }]}
+        validateStatus={loginError ? "error" : ""}
+      >
+        <Select placeholder="Position">
+          <Select.Option value="P0">Bác sĩ</Select.Option>
+          <Select.Option value="P1">Thạc sĩ</Select.Option>
+          <Select.Option value="P2">Tiến sĩ</Select.Option>
+          <Select.Option value="P3">Phó giáo sư</Select.Option>
+          <Select.Option value="P4">Giáo sư</Select.Option>
+        </Select>
+      </Form.Item>
       <Form.Item
         name="roleId"
         rules={[{ required: true, message: "Vui lòng chọn vai trò!" }]}
         validateStatus={loginError ? "error" : ""}
       >
         <Select placeholder="Role">
-          <Select.Option value="Admin">Admin</Select.Option>
-          <Select.Option value="Doctor">Doctor</Select.Option>
-          <Select.Option value="Patient">Patient</Select.Option>
+          <Select.Option value="R1">Admin</Select.Option>
+          <Select.Option value="R2">Doctor</Select.Option>
+          <Select.Option value="R3">Patient</Select.Option>
         </Select>
       </Form.Item>
     </>
@@ -154,11 +163,6 @@ function ManageAccount() {
       dataIndex: "gender",
       key: "gender",
       align: "center",
-      render: (id, record) => (
-        <>
-          <p>{record.gender ? "Male" : "FeMale"}</p>
-        </>
-      ),
     },
     {
       title: "Role",
@@ -166,17 +170,17 @@ function ManageAccount() {
       key: "roleId",
       align: "center",
     },
+    // {
+    //   title: "UpdateAt",
+    //   dataIndex: "updatedAt",
+    //   key: "updatedAt",
+    //   align: "center",
+    //   render: (updatedAt) => (
+    //     <p>{moment(updatedAt).format("YYYY-MM-DD HH:mm:ss")}</p>
+    //   ),
+    // },
     {
-      title: "UpdateAt",
-      dataIndex: "updatedAt",
-      key: "updatedAt",
-      align: "center",
-      render: (updatedAt) => (
-        <p>{moment(updatedAt).format("YYYY-MM-DD HH:mm:ss")}</p>
-      ),
-    },
-    {
-      title: "CreateAt",
+      title: "Create At",
       dataIndex: "createdAt",
       key: "createdAt",
       align: "center",

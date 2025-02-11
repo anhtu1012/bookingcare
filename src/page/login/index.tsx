@@ -37,13 +37,14 @@ const Login = () => {
       dispatch(login(response.data.user));
 
       setLoginError("");
-      if (user.roleId === "Admin") {
+      if (user.roleId === "R1") {
         navigate("/dashboard/manage-user");
         toast.success("Successfully Admin");
-      } else if (user.roleId === "Doctor") {
+      } else if (user.roleId === "R2") {
+        navigate("/dashboard/manage-time");
         toast.success("Successfully Doctor");
       } else {
-        toast.success("Successfully P");
+        toast.success("Successfully Patient");
       }
     } catch (error: any) {
       setLoginError(error.response?.data?.message);

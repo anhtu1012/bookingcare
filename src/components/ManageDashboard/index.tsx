@@ -1,5 +1,17 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Button, Form, Input, Modal, Popconfirm, Table } from "antd";
+import {
+  Button,
+  Form,
+  GetProp,
+  Image,
+  Input,
+  Modal,
+  Popconfirm,
+  Table,
+  Upload,
+  UploadFile,
+  UploadProps,
+} from "antd";
 import { useForm } from "antd/es/form/Form";
 import dayjs from "dayjs";
 import { useEffect, useState } from "react";
@@ -7,7 +19,9 @@ import { AiOutlineEdit } from "react-icons/ai";
 import { toast } from "react-toastify";
 import api from "../../config/axios";
 import { MdAutoDelete } from "react-icons/md";
-
+import { PlusOutlined } from "@ant-design/icons";
+import uploadFile from "../../utils/upload";
+import LoadingTruck from "../loading";
 export interface Column {
   title: string;
   dataIndex: string;
@@ -22,6 +36,15 @@ interface ManageTemplateProps {
   apiURI: string;
   onError: (message: string) => void;
 }
+type FileType = Parameters<GetProp<UploadProps, "beforeUpload">>[0];
+
+const getBase64 = (file: FileType): Promise<string> =>
+  new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result as string);
+    reader.onerror = (error) => reject(error);
+  });
 function ManageTemplate({
   columns,
   title,
@@ -35,6 +58,28 @@ function ManageTemplate({
   const [fetching, setFetching] = useState<boolean>(true);
   const [form] = useForm();
   const [tableColumns, settableColumns] = useState<Column[]>([]);
+  const [previewOpen, setPreviewOpen] = useState(false);
+  const [previewImage, setPreviewImage] = useState("");
+  const [fileList, setFileList] = useState<UploadFile[]>([]);
+
+  const handlePreview = async (file: UploadFile) => {
+    if (!file.url && !file.preview) {
+      file.preview = await getBase64(file.originFileObj as FileType);
+    }
+
+    setPreviewImage(file.url || (file.preview as string));
+    setPreviewOpen(true);
+  };
+
+  const handleChange: UploadProps["onChange"] = ({ fileList: newFileList }) =>
+    setFileList(newFileList);
+
+  const uploadButton = (
+    <button style={{ border: 0, background: "none" }} type="button">
+      <PlusOutlined />
+      <div style={{ marginTop: 8 }}>Upload</div>
+    </button>
+  );
   useEffect(() => {
     //useEffect này sẽ chạy khi giá trị columns thay đổi
     const newColumns = [
@@ -54,22 +99,21 @@ function ManageTemplate({
                 setShowModal(true);
                 const newRecord = { ...record };
                 console.log(newRecord);
-                //vòng lập
-                // check tất cả các thuộc tính xem thằng nào là datetime
 
-                for (var key of Object.keys(newRecord)) {
-                  //record[key]
-                  // record['id'] <=> record.id
+                form.setFieldsValue(newRecord);
 
-                  const value = newRecord[key];
-
-                  var date: any = new Date(value);
-                  const time: any = date.getTime();
-                  if (typeof value === "number" || isNaN(time)) {
-                    // => thằng này k phải date time
+                if (!(record.image === null)) {
+                  if (newRecord.image) {
+                    setFileList([
+                      {
+                        uid: "-1",
+                        name: "image.png",
+                        status: "done",
+                        url: newRecord.image,
+                      },
+                    ]);
                   } else {
-                    // thằng này là date time => cần cập nhật lại đúng định dạng antd
-                    newRecord[key] = dayjs(value);
+                    setFileList([]);
                   }
                 }
 
@@ -108,6 +152,9 @@ function ManageTemplate({
   useEffect(() => {
     fetchItem();
   }, []);
+  if (!dataSource) {
+    return <LoadingTruck />;
+  }
   const handleDelete = async (id: number) => {
     try {
       await api.delete(`${apiURI}/${id}`);
@@ -125,7 +172,16 @@ function ManageTemplate({
   };
   const handleSubmit = async (values) => {
     setLoading(true);
+    console.log(values.id);
     try {
+      if (fileList.length > 0) {
+        const fileToUpload = fileList[0].originFileObj;
+        if (fileToUpload) {
+          const url = await uploadFile(fileToUpload);
+          values.image = url;
+        }
+      }
+
       if (values.id) {
         await api.put(`${apiURI}/${values.id}`, values);
       } else {
@@ -133,14 +189,14 @@ function ManageTemplate({
       }
       onError("");
       setLoading(false);
-      toast.success(`Successfully crate ${title} `);
+      toast.success(`Successfully ${title} `);
       fetchItem();
       setShowModal(false);
-      form.resetFields();
+      setFileList([]);
     } catch (error: any) {
       setLoading(false);
       onError(error.response?.data?.message);
-      toast.error(error.response.data.message);
+      toast.error(error.response?.data?.message);
     }
   };
 
@@ -164,12 +220,22 @@ function ManageTemplate({
         columns={tableColumns}
         pagination={{ position: ["bottomCenter"] }}
       />
-      ;
       <Modal
-        onCancel={() => setShowModal(false)}
+        onCancel={() => {
+          setShowModal(false);
+          form.resetFields();
+          setFileList([]);
+        }}
         open={showModal}
         footer={[
-          <Button key="back" onClick={() => setShowModal(false)}>
+          <Button
+            key="back"
+            onClick={() => {
+              setShowModal(false);
+              form.resetFields();
+              setFileList([]);
+            }}
+          >
             Cancel
           </Button>,
           <Button
@@ -187,8 +253,31 @@ function ManageTemplate({
             <Input />
           </Form.Item>
           {formItems}
+          <Form.Item name="image">
+            {" "}
+            <Upload
+              action="https://660d2bd96ddfa2943b33731c.mockapi.io/api/upload"
+              listType="picture-circle"
+              fileList={fileList}
+              onPreview={handlePreview}
+              onChange={handleChange}
+            >
+              {fileList.length >= 8 ? null : uploadButton}
+            </Upload>
+          </Form.Item>
         </Form>
       </Modal>
+      {previewImage && (
+        <Image
+          wrapperStyle={{ display: "none" }}
+          preview={{
+            visible: previewOpen,
+            onVisibleChange: (visible) => setPreviewOpen(visible),
+            afterOpenChange: (visible) => !visible && setPreviewImage(""),
+          }}
+          src={previewImage}
+        />
+      )}
     </div>
   );
 }

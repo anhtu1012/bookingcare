@@ -1,0 +1,1856 @@
+{
+  "ok": true,
+  "message": "Đăng nhập thành công!",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Mjg4MTk4NzgsImp0aSI6ImI1M2E1NzdiLTc2MWYtNDg3ZS04MWFkLTUwMTBhZDM3YjcwMyIsImlzcyI6Imh0dHA6Ly8xMC4xMC4xMS4yMDA6ODA5MC9yZWFsbXMvU05QIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6ImUzODQyZjkwLTU1YjEtNGNlZS05MWI2LTNhZWEyMzFkYTdhMCIsInR5cCI6IkJlYXJlciIsImF6cCI6Ik1OUkNFTlRFUiIsInNlc3Npb25fc3RhdGUiOiJmMzBlMGI0Ni1iZjVlLTQ5ZjEtYmFlYy0wMjlhNGI3NGExYjciLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cHM6Ly9lY20tc25wLmNlaGNsb3VkLm5ldCIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMCIsImh0dHA6Ly9sb2NhbGhvc3Q6NTE3MyJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1zbnAiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsicmVhbG0tbWFuYWdlbWVudCI6eyJyb2xlcyI6WyJtYW5hZ2UtcmVhbG0iLCJtYW5hZ2UtdXNlcnMiLCJ2aWV3LXVzZXJzIiwicXVlcnktZ3JvdXBzIiwicXVlcnktdXNlcnMiXX0sIk1OUkNFTlRFUiI6eyJyb2xlcyI6WyJDQVRMQUlfTU5SQ0VOVEVSX01BTkFHRVIiXX0sImFjY291bnQiOnsicm9sZXMiOlsiZGVsZXRlLWFjY291bnQiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJmMzBlMGI0Ni1iZjVlLTQ5ZjEtYmFlYy0wMjlhNGI3NGExYjciLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJyb2xlIGFkbWluIHRlc3QiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1dGVzdCIsImdpdmVuX25hbWUiOiJyb2xlIiwidGVybWluYWxzIjpbeyJ0ZXJtaW5hbF9jb2RlIjoiQ0FUTEFJIiwidGVybWluYWxfbmFtZSI6IkPDoXQgbMOhaSJ9LHsidGVybWluYWxfY29kZSI6Ik1ZVEhVWSIsInRlcm1pbmFsX25hbWUiOiJN4bu5IHRo4buneSJ9XSwiZmFtaWx5X25hbWUiOiJhZG1pbiB0ZXN0IiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImV4cGlyZXNfdGltZSI6IjIwMjQtMTAtMTNUMTI6Mjk6MzguODE1WiIsImV4cCI6MTczMTUxOTg3OH0.lNkYU7tCjRi6wmfrnbRXyXC8fKFxWh4TUfsj-rfuJRU",
+  "refresh_token": "eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmMzU1ZjY0MS0wMDYzLTQ4YzktYjJjYS03Y2IyNzM1YmQ4ZDIifQ.eyJleHAiOjE3MzE0MTE4NzgsImlhdCI6MTcyODgxOTg3OCwianRpIjoiNGE1YjM3YWYtZDMwNS00YzdmLWIxNjQtNDZmZTNiYjEzYWFjIiwiaXNzIjoiaHR0cDovLzEwLjEwLjExLjIwMDo4MDkwL3JlYWxtcy9TTlAiLCJhdWQiOiJodHRwOi8vMTAuMTAuMTEuMjAwOjgwOTAvcmVhbG1zL1NOUCIsInN1YiI6ImUzODQyZjkwLTU1YjEtNGNlZS05MWI2LTNhZWEyMzFkYTdhMCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJNTlJDRU5URVIiLCJzZXNzaW9uX3N0YXRlIjoiZjMwZTBiNDYtYmY1ZS00OWYxLWJhZWMtMDI5YTRiNzRhMWI3Iiwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiZjMwZTBiNDYtYmY1ZS00OWYxLWJhZWMtMDI5YTRiNzRhMWI3In0.4Rk7kazLKJbDjLpVHDufaj7cQq9SakhEbGFS0xkfO8O5RJY6C9dP1Mv9trtwRlZoAbX8Ysc6LgC5ZgYVc3eqPw",
+  "expiresIn": 2700000,
+  "user_info": {
+    "id": "e3842f90-55b1-4cee-91b6-3aea231da7a0",
+    "username": "utest",
+    "firstName": "role",
+    "lastName": "admin test",
+    "email": "test@gmail.com",
+    "emailVerified": false,
+    "attributes": {
+      "birthday": ["2024-05-17 16:36:09"],
+      "role": ["admin"],
+      "terminals": [
+        "[{\"terminal_code\": \"CATLAI\", \"terminal_name\": \"Cát lái\"},{\"terminal_code\": \"MYTHUY\", \"terminal_name\": \"Mỹ thủy\"}]"
+      ],
+      "listModule": [
+        "[{\"module_code\": \"CA\", \"module_name\": \"Category\"},{\"module_code\": \"OM\", \"module_name\": \"Operation Management\"},{\"module_code\": \"MC\", \"module_name\": \"Monitoring and Control\"},{\"module_code\": \"YARD\", \"module_name\": \"Yard Planning\"}, \t\t\t\t{\"module_code\": \"SHIP\", \"module_name\": \"Ship Planning\"},{\"module_code\": \"CD\", \"module_name\": \"Change Data\"},{\"module_code\": \"BERTH\", \"module_name\": \"Berth Planning\"}, \t\t\t\t{\"module_code\": \"HIS\", \"module_name\": \"His Viewer\"},{\"module_code\": \"RP\", \"module_name\": \"Report\"},{\"module_code\": \"EDI\", \"module_name\": \"Electronic Data Interchange\"}]"
+      ]
+    },
+    "createdTimestamp": 1716884581649,
+    "enabled": true,
+    "totp": false,
+    "disableableCredentialTypes": [],
+    "requiredActions": [],
+    "notBefore": 1726651182,
+    "access": {
+      "manageGroupMembership": true,
+      "view": true,
+      "mapRoles": true,
+      "impersonate": true,
+      "manage": true
+    },
+    "fullname": "admin test role"
+  },
+  "permission": [
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/weekly_report",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/method",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "DENY"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/task/booking",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/container",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/expertise_repair",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/empty_manage_center/empty_cont_condition_monitoring",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/email",
+      "scope": ["update", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/jobmode",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/blame_report",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "DENY"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/payment_report",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/general_statistics",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/user",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/production_report",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/class",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/eir_info",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/task/empty_pre_advice",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/transit",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/exchange_rate",
+      "scope": ["update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/stacking_in_yard",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/task/empty_pickup",
+      "scope": ["update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_brokendown_container_total",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/furnish_empty_container",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/operation",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/manage/maintenance",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/freeday",
+      "scope": ["view", "update", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_M&R_service",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/statistic_use_efficiency_table",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/container_info",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/eirsrv",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/payment_type",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/payment_info",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/cargo_type",
+      "scope": ["view", "update", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/statistics_evaluate_user",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/booking",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "DENY"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_brokendown_container_byunit",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/summary_bill_revenue",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/task/service",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/sa/user",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_cancel_bill",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_bill_by_work",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/container_info_list",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/production_report_at_ICDDepot",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "DENY"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/tariff_group",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/quick_report",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/sa/menu",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/tariff",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/bill_info",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_bank_reconcilation",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/empty_manage_center/plan_coordinate",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/manage/contact",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/capacity_in_yard_status",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "DENY",
+      "menu": "mnrcenter/config/attach",
+      "scope": []
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "DENY"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/container_status",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/statistics_according_to_user",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/sa/group",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/empty_manage_center/manage_coordinate",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_bill_collection_immediately",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/booking_info",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/repair_cost",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/tariff_contract",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/query_info_furnish_seal",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/category/sizetype",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/pincode_info",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/statistics_according_to_customer",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/order_info",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "DENY"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/report_reward_worker_findout_breakdown",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/approval",
+      "scope": ["update", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/reports/statistic_used_in_yard_by_month",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [],
+      "status": "PERMIT"
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/api",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/config/tariff_standard",
+      "scope": ["view", "update", "create", "delete"]
+    },
+    {
+      "scopes": [
+        {
+          "id": "560c50e4-c513-42d0-99cd-76e460ee55fd",
+          "name": "update"
+        },
+        {
+          "id": "e15f07fc-a6a3-406e-8057-56eb280375a0",
+          "name": "create"
+        },
+        {
+          "id": "17215afb-cc9f-4293-9a6c-1c642dbdb74e",
+          "name": "view"
+        },
+        {
+          "id": "39b7d4d1-ba2a-49a9-93cf-73bd53088f9f",
+          "name": "delete"
+        }
+      ],
+      "status": "PERMIT",
+      "menu": "mnrcenter/tracking/invoice",
+      "scope": ["view", "update", "create", "delete"]
+    }
+  ]
+}

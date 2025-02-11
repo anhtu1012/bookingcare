@@ -1,0 +1,102 @@
+.doctor-detail {
+  padding: 20px 40px;
+  &__breadcrumb {
+    color: rgb(137, 217, 226);
+    display: flex;
+    align-items: center;
+  }
+  &__main-info {
+    display: flex;
+    justify-content: center;
+    .image {
+      padding-right: 40px;
+      img {
+        width: 120px;
+        border-radius: 50%;
+      }
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      h1 {
+        font-weight: 400;
+      }
+      span {
+        color: gray;
+      }
+      .like-share {
+        padding-top: 10px;
+        display: flex;
+        gap: 10px;
+        .button {
+          padding: 8px;
+          background-color: rgb(24, 119, 242);
+          color: white;
+          font-weight: bold;
+          border: none;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  &__booking {
+    display: flex;
+    padding-bottom: 20px;
+    .booking-time {
+      width: 60%;
+      border-right: 1px solid gray;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .day {
+        .day-timee {
+          border-style: none;
+          border-bottom: 1px solid gray;
+          border-radius: 0px;
+          color: rgb(51, 122, 183);
+          input {
+            font-size: 17px;
+            font-weight: bold;
+          }
+        }
+      }
+      .title {
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      .time {
+        .button-time {
+          margin: 5px;
+          padding: 13px;
+          border: none;
+          font-weight: bold;
+
+          transition: 0.1s all;
+          &:hover {
+            outline: 3px solid rgb(51, 176, 227);
+            cursor: pointer;
+          }
+        }
+      }
+      .note {
+        color: gray;
+        font-size: 13px;
+      }
+    }
+    .booking-price {
+      padding: 20px;
+
+      flex-grow: 1;
+      .title {
+        color: gray;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 10px 0px;
+      }
+    }
+  }
+  &__markdown {
+    padding: 10px 40px;
+  }
+}

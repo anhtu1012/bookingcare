@@ -6,8 +6,8 @@ export interface User {
   lastName: string;
   address: string;
   phoneNumber: string;
-  gender: boolean;
+  gender: "M" | "F" | "O";
   image: string;
-  roleId: "Admin" | "Doctor" | "Patient";
-  positionId: string;
+  roleId: "R1" | "R2" | "R3";
+  positionId: "P0" | "P1" | "P2" | "P3" | "P4";
 }

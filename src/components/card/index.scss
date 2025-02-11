@@ -1,0 +1,17 @@
+.cart-product {
+  width: 250px !important;
+  background-color: transparent;
+  border: none;
+  margin: 0px 50px 20px 50px;
+  .image-container {
+    background-color: transparent;
+    min-height: 230px;
+    img {
+      width: 220px;
+      border-radius: 50%;
+    }
+  }
+  .title_card {
+    font-size: 20px;
+  }
+}

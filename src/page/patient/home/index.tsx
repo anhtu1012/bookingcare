@@ -1,7 +1,10 @@
+import Carousel from "../../../components/carousel";
+import Relate from "../../../components/relate";
 import "./index.scss";
 function Home() {
   return (
     <div className="home">
+      <Carousel />
       <div className="home-service">
         <h2 className="home-service__title">Dịch vụ toàn diện</h2>
         <div className="home-service__button-row">
@@ -99,6 +102,17 @@ function Home() {
               <span className="colum__title">Y Tế Gần Bạn</span>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="home__doctor">
+        <div className="header_doctor">
+          <div className="titel">Bác sĩ nổi bật</div>
+          <div className="see-more">
+            <button>Xem Thêm</button>
+          </div>
+        </div>
+        <div>
+          <Relate numberOfSlides={4} />
         </div>
       </div>
     </div>

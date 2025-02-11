@@ -8,3 +8,16 @@ export const loginUser = (values: LoginFormValues) => {
 export const register = (data: RegisterFormValues) => {
   return api.post("register", data);
 };
+export const getDoctor = (limit: number) => {
+  return api.get(`get-doctor/${limit}`);
+};
+
+export const fetchDoctor = (choose: string) => {
+  return api.get(`get-all-doctor/${choose}`);
+};
+export const createMarkdown = (data) => {
+  return api.post("markdown", data);
+};
+export const getDoctorDetail = (id: number) => {
+  return api.get(`get-doctor-detail/${id}`);
+};
